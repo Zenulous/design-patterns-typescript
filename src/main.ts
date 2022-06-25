@@ -8,4 +8,5 @@
 //import "./patterns/structural/composite";
 //import "./patterns/structural/decorator";
 // import "./patterns/structural/facade";
-import "./patterns/structural/flyweight";
+// import "./patterns/structural/flyweight";
+import "./patterns/structural/proxy";
