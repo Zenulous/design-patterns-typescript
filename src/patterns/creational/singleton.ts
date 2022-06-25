@@ -1,17 +1,17 @@
 // Singleton
 // Ensure a class has only one instance and provide a global point of access to it.
 
-export class DatabaseConnector {
-  private static instance: DatabaseConnector;
+export class GymDatabaseConnector {
+  private static instance: GymDatabaseConnector;
   private constructor() {
     return;
   }
 
-  public static getInstance(): DatabaseConnector {
-    if (!DatabaseConnector.instance) {
-      DatabaseConnector.instance = new DatabaseConnector();
+  public static getInstance(): GymDatabaseConnector {
+    if (!GymDatabaseConnector.instance) {
+      GymDatabaseConnector.instance = new GymDatabaseConnector();
     }
 
-    return DatabaseConnector.instance;
+    return GymDatabaseConnector.instance;
   }
 }
