@@ -6,4 +6,5 @@
 //import "./patterns/structural/adapter";
 //import "./patterns/structural/bridge";
 //import "./patterns/structural/composite";
-import "./patterns/structural/decorator";
+//import "./patterns/structural/decorator";
+import "./patterns/structural/facade";
