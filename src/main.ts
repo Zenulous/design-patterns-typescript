@@ -3,3 +3,4 @@
 //import "./patterns/creational/factoryMethod";
 //import "./patterns/creational/prototype";
 //import "./patterns/creational/singleton";
+import "./patterns/structural/adapter";
