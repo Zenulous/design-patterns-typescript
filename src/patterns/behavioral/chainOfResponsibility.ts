@@ -1,3 +1,5 @@
+// Chain of Responsibility
+// Avoid coupling the sender of a request to a receiver by giving more than one receiver a chance to handle the request. Chain the receiving objects and pass the request along the chain until one of them handles it.
 interface ResponsibilityHandler {
   handle(request: string): string;
   setNextHandler(nextHandler: ResponsibilityHandler): void;
