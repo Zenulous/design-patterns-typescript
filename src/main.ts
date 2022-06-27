@@ -10,4 +10,5 @@
 // import "./patterns/structural/facade";
 // import "./patterns/structural/flyweight";
 // import "./patterns/structural/proxy";
-import "./patterns/behavioral/chainOfResponsibility";
+// import "./patterns/behavioral/chainOfResponsibility";
+import "./patterns/behavioral/command";
