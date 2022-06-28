@@ -12,4 +12,5 @@
 // import "./patterns/structural/proxy";
 // import "./patterns/behavioral/chainOfResponsibility";
 // import "./patterns/behavioral/command";
-import "./patterns/behavioral/interpreter";
+// import "./patterns/behavioral/interpreter";
+import "./patterns/behavioral/iterator";
